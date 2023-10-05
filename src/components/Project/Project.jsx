@@ -17,9 +17,10 @@ const Project = () => {
     setModalData(data);
     setModalStatus(true);
   };
-  const demoProject = (project) => {
-    window.open(project, "_blank");
-  };
+ const demoProject = (link) => {
+   window.open(link, "_blank");
+ };
+
   const projectElements = ProjectData.map((item) => {
     return (
       <div className="project" key={item.id} id="project" data-aos="fade-up">
@@ -39,10 +40,10 @@ const Project = () => {
             <i className="fa-solid fa-link"></i> {item.appLink}
           </a>
           <div className="project-buttons">
-            <button onClick={() => demoProject(project.appLink)}>
+            <button onClick={() => demoProject(item.appLink)}>
               Demo <i className="fa-solid fa-play fa-beat"></i>
             </button>
-            <button onClick={() => demoProject(project.sourceLink)}>
+            <button onClick={() => demoProject(item.sourceLink)}>
               Source <i className="fa-solid fa-code"></i>
             </button>
           </div>
