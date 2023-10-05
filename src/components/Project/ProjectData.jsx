@@ -29,8 +29,8 @@ const ProjectData = [
     achievements, communicates my personal brand, and
     highlights my passion for technology.
     `,
-    images: "/image/project-image/portfolio.png",
-    sourceLink: "https://github.com/arnoldzkie2/portfolio",
+    images: "/image/project-image/main-portfolio.jpg",
+    sourceLink: "https://github.com/IsraelOjiefoh/portfolio",
     appLink: "https://israelojiefoh.netlify.app/",
     used: "USED: HTML | SASS | JAVASCRIPT | REACT",
   },
@@ -57,7 +57,7 @@ const ProjectData = [
     used: "USED: HTML | Tailwind | JAVASCRIPT | REACT",
   },
   {
-    id: "05",
+    id: "06",
     title: "MEMES",
     modalImage: "/image/project-image/portfolio.jpg",
     description: `My portfolio website showcases my skills, best projects.
