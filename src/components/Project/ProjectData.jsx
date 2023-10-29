@@ -49,7 +49,7 @@ const ProjectData = [
     id: "05",
     title: "vee-mart",
     modalImage: "/image/project-image/portfolio.jpg",
-    description: `My portfolio website showcases my skills, best projects.
+    description: `Explore the collection of high-quality products, carefully curated for your needs. From fashion to electronics, homme decor to gadgets and so much more
     `,
     images: "/image/project-image/vee-mart.jpg",
     sourceLink: "https://github.com/IsraelOjiefoh/vee-mart",
@@ -60,7 +60,7 @@ const ProjectData = [
     id: "06",
     title: "MEMES",
     modalImage: "/image/project-image/portfolio.jpg",
-    description: `My portfolio website showcases my skills, best projects.
+    description: `Explore a world of meme, where you find a collection of different memes
     `,
     images: "/image/project-image/meme.jpg",
     sourceLink: "https://github.com/IsraelOjiefoh/memes",
