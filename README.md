@@ -1,3 +1,3 @@
 # portfolio
 
-demo: https://arnoldzkie.netlify.app
+demo: https://israelojiefoh.netlify.app
